@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('last_name');
             $table->tinyInteger('status')->default(0);
             $table->string('email')->unique();
+            $table->string('profile_picture');
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->unsignedBigInteger('role_id');
