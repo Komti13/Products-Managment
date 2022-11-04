@@ -32,10 +32,10 @@
                         </button>
                     </form>
                     <li class="nav-item">
-                        <a class="btn btn-outline-primary" href="contact.html" style="margin-right: 10px">Login</a>
+                        <a class="btn btn-outline-primary" href="{{ route('login') }}" style="margin-right: 10px">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-outline-success" href="contact.html">Register</a>
+                        <a class="btn btn-outline-success" href="{{ route('register') }}">Register</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">

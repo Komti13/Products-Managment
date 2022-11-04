@@ -18,14 +18,15 @@
                 'resources/home/css/font-awesome.min.css',
                 'resources/home/css/responsive.css',
                 'resources/home/css/style.css',
+
             ])
-    {{--    <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}" />--}}
-    {{--    <!-- font awesome style -->--}}
-    {{--    <link href="{{asset('home/css/font-awesome.min.css')}}" rel="stylesheet" />--}}
-    {{--    <!-- Custom styles for this template -->--}}
-    {{--    <link href="{{asset('home/css/style.css')}}" rel="stylesheet" />--}}
-    {{--    <!-- responsive style -->--}}
-    {{--    <link href="{{asset('home/css/responsive.css')}}" rel="stylesheet" />--}}
+{{--        <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}" />--}}
+{{--        <!-- font awesome style -->--}}
+{{--        <link href="{{asset('home/css/font-awesome.min.css')}}" rel="stylesheet" />--}}
+{{--        <!-- Custom styles for this template -->--}}
+{{--        <link href="{{asset('home/css/style.css')}}" rel="stylesheet" />--}}
+{{--        <!-- responsive style -->--}}
+{{--        <link href="{{asset('home/css/responsive.css')}}" rel="stylesheet" />--}}
 
 </head>
 <body>
@@ -66,17 +67,17 @@
 </div>
 <!-- jQery -->
 @vite([
-            'resources/home/js/bootstrap.js',
-            'resources/home/js/custom.js',
-            'resources/home/js/jquery-3.4.1.min.js',
-            'resources/home/js/popper.min.js',
+                'resources/home/js/jquery-3.4.1.min.js',
+                'resources/home/js/popper.min.js',
+                'resources/home/js/bootstrap.js',
+                'resources/home/js/custom.js',
         ])
 <script src="{{asset('home/js/jquery-3.4.1.min.js')}}"></script>
 {{--<!-- popper js -->--}}
-{{--<script src="{{asset('home/js/popper.min.js')}}"></script>--}}
+<script src="{{asset('home/js/popper.min.js')}}"></script>
 {{--<!-- bootstrap js -->--}}
-{{--<script src="{{asset('home/js/bootstrap.js')}}"></script>--}}
+<script src="{{asset('home/js/bootstrap.js')}}"></script>
 {{--<!-- custom js -->--}}
-{{--<script src="{{asset('home/js/custom.js')}}"></script>--}}
+<script src="{{asset('home/js/custom.js')}}"></script>
 </body>
 </html>
